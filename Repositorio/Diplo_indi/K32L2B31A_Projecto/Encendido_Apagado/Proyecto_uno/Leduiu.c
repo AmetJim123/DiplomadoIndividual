@@ -49,21 +49,21 @@
 /*******************************************************************************
  * Public Source Code
  ******************************************************************************/
- void encender_led_verde(){
-     // encender led verde
+ void green_led_on(){
+     // encendido led verde
      GPIO_PinWrite(GPIOD,5,0);
  }
  /*----------------------------------------------------------------------------------*/
- void apagar_led_verde(){
-     // apagar led verde
+ void green_led_off(){
+     // apagado led verde
      GPIO_PinWrite(GPIOD,5,1);
  }
- void encender_led_rojo(){
-      // encender led verde
+ void red_led_on(){
+      // encendido led rojo
       GPIO_PinWrite(GPIOE,31U,0);
   }
   /*----------------------------------------------------------------------------------*/
-  void apagar_led_rojo(){
-      // apagar led verde
+  void red_led_off(){
+      // apagado led rojo
       GPIO_PinWrite(GPIOE,31U,1);
   }

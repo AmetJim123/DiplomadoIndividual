@@ -45,18 +45,18 @@
  * Public Prototypes
  ******************************************************************************/
 /*!
- * @brief enciende leds verde de tarjeta frdm-k32l2b3
+ * @brief enciende leds verde y rojo de tarjeta frdm-k32l2b3
  *
  */
-void encender_led_verde();
-void encender_led_rojo();
+void green_led_on();
+void red_led_on();
 /*----------------------------------------------------------------------------------*/
 /*!
- * @brief apagar leds verde de tarjeta frdm-k32l2b3
+ * @brief apagar leds verde y rojo de tarjeta frdm-k32l2b3
  *
  */
-void apagar_led_verde();
-void apagar_led_rojo();
+void green_led_off();
+void red_led_off();
 
 
 
