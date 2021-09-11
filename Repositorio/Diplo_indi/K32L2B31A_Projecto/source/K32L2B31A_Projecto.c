@@ -71,8 +71,9 @@ int main(void) {
 
 
 
-    PRINTF("Hello World\r\n");
+    PRINTF("Hola qué tal??\r\n");
     PRINTF("test_global_var:%d\r\n",test_global_var);
+
 
 
 
@@ -82,21 +83,21 @@ int main(void) {
 
 
 
-    bool intercambio =false;
+    bool toogle =false;
     while(1) {
-        for(short k=0;k<10;k++){
-        encender_led_verde();
+        for(short j=0;j<10;j++){
+        green_led_on();
         delay_block();
-        apagar_led_verde();
+        green_led_off();
         delay_block();
     }
-        if(!intercambio){
-            intercambio =true;
-            encender_led_rojo();
+        if(!toogle){
+            toogle =true;
+            red_led_on();
             delay_block();
         }else{
-            intercambio=false;
-            apagar_led_rojo();
+            toogle=false;
+            red_led_off();
             delay_block();
         }
     }
